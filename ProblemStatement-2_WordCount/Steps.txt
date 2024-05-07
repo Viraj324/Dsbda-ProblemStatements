@@ -1,0 +1,9 @@
+Generate jar file MRPrograms_WordCount.jar
+
+1) hadoop fs -put wordCount wordCount
+
+2) hadoop jar MRPrograms_WordCount.jar PackageDemo.WordCount wordCount MRDir1
+
+3) hadoop fs -ls MRDir1
+
+4) hadoop fs -cat MRDir1/part-r-000000
